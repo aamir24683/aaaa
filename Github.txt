@@ -1,0 +1,84 @@
+Microsoft Windows [Version 10.0.18362.418]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Aamir Afzal\Desktop\abc>git init
+Initialized empty Git repository in C:/Users/Aamir Afzal/Desktop/abc/.git/
+
+C:\Users\Aamir Afzal\Desktop\abc>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Aamir Afzal\Desktop\abc>git stqatus
+git: 'stqatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Users\Aamir Afzal\Desktop\abc>
+C:\Users\Aamir Afzal\Desktop\abc>
+C:\Users\Aamir Afzal\Desktop\abc>
+C:\Users\Aamir Afzal\Desktop\abc>
+C:\Users\Aamir Afzal\Desktop\abc>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Human Computer Interaction/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Aamir Afzal\Desktop\abc>git add .
+
+C:\Users\Aamir Afzal\Desktop\abc>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Human Computer Interaction/Human-Computer Reaction.pdf
+        new file:   Human Computer Interaction/e3-chap-01.ppt
+        new file:   Human Computer Interaction/e3-chap-02.ppt
+
+
+C:\Users\Aamir Afzal\Desktop\abc>git commit -m "ksjdlkfjsaljf"
+[master (root-commit) e31d45b] ksjdlkfjsaljf
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Human Computer Interaction/Human-Computer Reaction.pdf
+ create mode 100644 Human Computer Interaction/e3-chap-01.ppt
+ create mode 100644 Human Computer Interaction/e3-chap-02.ppt
+
+C:\Users\Aamir Afzal\Desktop\abc>git remote add cat https://github.com/aamir24683/desktop-tutorial.git
+
+C:\Users\Aamir Afzal\Desktop\abc>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Aamir Afzal\Desktop\abc>git push cat master
+To https://github.com/aamir24683/desktop-tutorial.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/aamir24683/desktop-tutorial.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Aamir Afzal\Desktop\abc>git remote add dog https://github.com/aamir24683/bootstrsp.git
+
+C:\Users\Aamir Afzal\Desktop\abc>git push dog master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 13.29 MiB | 666.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/aamir24683/bootstrsp.git
+ * [new branch]      master -> master
+
+C:\Users\Aamir Afzal\Desktop\abc>
